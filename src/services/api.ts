@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BACKEND_URL = 'https://dn.sammiehosty.com/api';
+const BACKEND_URL = 'https://dm.sammiehosty.com/api';
 
 // This will be set upon login and used for all subsequent requests
 let AUTH_KEY = '';
