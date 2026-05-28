@@ -322,7 +322,7 @@ const SettingsDialog = ({ isOpen, onClose, onSave }: { isOpen: boolean, onClose:
             onClick={() => { onSave(newPass); onClose(); }}
             className="w-full bg-[#00a884] text-white py-4 rounded-full font-bold shadow-lg hover:bg-[#06cf9c] active:scale-95 transition-all uppercase tracking-wide text-sm"
           >
-            Update Key
+            Update Password
           </button>
         </div>
       </div>
@@ -777,7 +777,7 @@ export default function App() {
             <Search className="w-4 h-4 text-[#54656f] dark:text-[#aebac1] group-focus-within:text-[#00a884] transition-colors" />
             <input 
               className="w-full bg-transparent p-2 outline-none text-sm font-medium text-[#111b21] dark:text-[#e9edef] placeholder:text-[#667781]"
-              placeholder="Search or start new chat"
+              placeholder="Search clients or add new client"
               value={search}
               onChange={e => setSearch(e.target.value)}
             />
