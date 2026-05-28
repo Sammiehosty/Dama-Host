@@ -758,9 +758,7 @@ export default function App() {
         <div className="h-[60px] bg-[#f0f2f5] dark:bg-[#202c33] px-4 flex justify-between items-center shrink-0 border-b border-gray-200 dark:border-gray-700">
           <h1 className="font-bold text-[#111b21] dark:text-[#e9edef] text-lg tracking-tight">Cloudflare Manager</h1>
           <div className="flex gap-1 md:gap-2 text-[#54656f] dark:text-[#aebac1]">
-            <button onClick={toggleTheme} className="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 transition-all active:scale-90" title="Theme">
-              {theme === 'light' ? <Moon className="w-6 h-6" /> : <Sun className="w-6 h-6 text-[#00a884]" />}
-            </button>
+            
             <button onClick={() => { setUserToEdit(null); setIsAddUserOpen(true); }} className="p-2 rounded-full hover:bg-black/5 dark:hover:bg-white/10 transition-all active:scale-90" title="Add Client">
               <Plus className="w-6 h-6" />
             </button>
